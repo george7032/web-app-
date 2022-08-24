@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/background.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(231, 231, 69);
+    padding: 5px 12px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: rgb(21, 21, 66);
+    color: rgb(218, 231, 240);
+}
+
+.logo img {
+    float: left;
+    width: 150px;
+    height: 70px;
+    margin: 0 20px;
+}
+
+.main_body {
+    background-color: lightblue;
+}
+
+.main {
+    max-width: 1200px;
+}
+
+.welcome {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.welcome h1 {
+    color: white;
+    font-size: 70px;
+    left: 50%;
+}
+
+.main1 {
+    margin-top: 30px;
+    position: absolute;
+    top: 45%;
+    left: 40px;
+}
+
+.main1 p {
+    font-size: 30px;
+    color: white;
+}
+
+.assurance {
+    background-image: url(images/handshake.jpg);
+    left: 10px;
+    padding-top: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    width: 100%;
+}
+
+.assurance p {
+    color: yellow;
+    font-size: 20px;
+}
+
+.assurance h5 {
+    color: black;
+    font-size: 30px;
+}
+
+.clients_name {
+    color: red;
+}
+
+.motto {
+    font-size: 30px;
+    margin: 30px;
+}
+
+.table {
+    width: 700px;
+    height: 500px;
+    margin-left: 200px;
+    width: 70%;
+}
+
+.main2 {
+    color: yellow;
+    font-size: 30px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainp {
+    color: white;
+}
+
+.contacts {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.services {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.services li {
+    color: yellow;
+}
+
+footer {
+    background: #050A30;
+    padding: 10px 10px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    width: relative;
+    position: static fixed;
+    height: 80px;
+    bottom: 0;
+}
